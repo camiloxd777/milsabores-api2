@@ -1,4 +1,4 @@
-/* com.milsabores.milsabores_api.config;
+package com.milsabores.milsabores_api.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -12,4 +12,4 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*");
     }
-}*/
+}
